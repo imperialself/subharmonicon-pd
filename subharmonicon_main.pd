@@ -1,0 +1,7 @@
+#N canvas 492 132 1424 970 12;
+#X obj 173 45 subharmonicon_seq2;
+#X obj 173 350 kquant2;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
